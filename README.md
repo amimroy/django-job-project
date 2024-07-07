@@ -24,7 +24,7 @@ from django.contrib.auth import authenticate,login,logout <br>
 
 
 <hr>	
-login_required use:
+login_required use:  settings.py>>> LOGIN_URL='signin'
 from django.contrib.auth.decorators import login_required <br>
 @login_required
 def view_function(request):
