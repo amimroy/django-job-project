@@ -3,7 +3,7 @@
 
 +app create use: app install 
 'appname'
-
+<hr>
 +AbstractUser use:
 
 from django.contrib.auth.models import AbstractUser
@@ -16,9 +16,10 @@ AUTH_USER_MODEL='jobApp.CustomUser'
 4) py manage.py createsuperuser
 5) py manage.py runserver
 
+<hr> ```
 +login_required use:
-
 from django.contrib.auth import authenticate,login,logout
 @login_required
 def view_function(request):
     pass
+```
