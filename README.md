@@ -5,6 +5,7 @@
 'appname'
 
 +AbstractUser use:
+
 from django.contrib.auth.models import AbstractUser
 class CustomUser(AbstractUser):
 	pass
@@ -16,6 +17,7 @@ AUTH_USER_MODEL='jobApp.CustomUser'
 5) py manage.py runserver
 
 +login_required use:
+
 from django.contrib.auth import authenticate,login,logout
 @login_required
 def view_function(request):
