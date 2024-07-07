@@ -1,6 +1,8 @@
 # django-job-project
 <pre>
-
+Careful for giving every name spelling 
+<hr>
+	
 app create use: app install
 'appname'
 <hr>
