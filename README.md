@@ -1,10 +1,10 @@
 # django-job-project
+<pre>
 
-
-**app create use: app install **
+app create use: app install
 'appname'
 <hr>
-** AbstractUser use: **
+ AbstractUser use: 
 from django.contrib.auth.models import AbstractUser <br>
 class CustomUser(AbstractUser):
 	pass
@@ -17,9 +17,13 @@ AUTH_USER_MODEL='jobApp.CustomUser'
 
 
 
-**login_required use:**
+login_required use:
 from django.contrib.auth import authenticate,login,logout <br>
 @login_required
 def view_function(request):
     pass
-```
+
+
+	
+
+</pre>
