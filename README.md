@@ -16,14 +16,30 @@ AUTH_USER_MODEL='jobApp.CustomUser'
 5) py manage.py runserver
 
 
-
-login_required use:
+authenticate,login,logout:
 from django.contrib.auth import authenticate,login,logout <br>
+
+
+	
+login_required use:
+from django.contrib.auth.decorators import login_required <br>
 @login_required
 def view_function(request):
     pass
 
 
-	
 
+
+
+
+
+
+
+
+
+
+
+
+
+	
 </pre>
